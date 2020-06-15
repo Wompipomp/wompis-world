@@ -87,6 +87,7 @@
                     </from>
                     <to>
                         <image>576853867587.dkr.ecr.us-east-2.amazonaws.com/wompis-world/wompis-world</image>
+                        <credHelper>ecr-login</credHelper>
                     </to>
                 </configuration>
 			</plugin>
