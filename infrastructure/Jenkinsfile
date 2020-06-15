@@ -1,9 +1,19 @@
 pipeline {
     agent any()
+
+    environment {
+        AWS_PROFILE = 'ecr'
+    }
+
     stages {
         stage("build") {
             steps {
                 sh 'mvn clean install -DskipTests'
+            }
+        }
+        stage("dockerize") {
+            steps {
+                sh 'mvn jib build'
             }
         }
     }
