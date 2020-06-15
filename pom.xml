@@ -86,7 +86,7 @@
                         <image>adoptopenjdk/openjdk11-openj9:alpine-slim</image>
                     </from>
                     <to>
-                        
+                        <image>576853867587.dkr.ecr.us-east-2.amazonaws.com/wompis-world/wompis-world</image>
                     </to>
                 </configuration>
 			</plugin>
