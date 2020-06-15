@@ -13,7 +13,7 @@ pipeline {
         }
         stage("dockerize") {
             steps {
-                sh 'mvn jib build'
+                sh 'mvn compile jib:build'
             }
         }
     }
